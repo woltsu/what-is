@@ -8,13 +8,13 @@ Before what-is can be used, one must create a .env file to the project root and 
 `CX=Y` (https://cse.google.com/cse/all)  
 
 ## Run
-1. pip3 install -r requirements.txt  
-2. python3 what-is/main.py  
+1. `pip3 install -r requirements.txt`  
+2. `python3 what-is/main.py`  
 
 OR
 
-1. docker build -t what-is .
-2. docker run -it -v $(pwd)/output:/src/output what-is  
+1. `docker build -t what-is .`
+2. `docker run -it -v $(pwd)/output:/src/output what-is`  
 
 ![demo](/examples/demo.png)  
 
