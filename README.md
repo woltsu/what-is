@@ -7,8 +7,6 @@ Before what-is can be used, one must create a .env file to the project root and 
 `API_KEY=X` (https://developers.google.com/custom-search/v1/introduction)  
 `CX=Y` (https://cse.google.com/cse/all)  
 
-![demo](/examples/demo.png)  
-
 ## Run
 1. pip3 install -r requirements.txt  
 2. python3 what-is/main.py  
@@ -17,6 +15,8 @@ OR
 
 1. docker build -t what-is .
 2. docker run -it -v $(pwd)/output:/src/output what-is  
+
+![demo](/examples/demo.png)  
 
 ## Examples  
 #### Black hole  
