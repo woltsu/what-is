@@ -1,5 +1,5 @@
 ## what-is  
-what-is is a tool to see what different things look like in average. Using a given keyword, what-is downloads images based on google results and outputs what the average image looks like.  
+what-is is a tool to see what different things look like on average. Using a given keyword, what-is downloads images based on google results and outputs what the average image looks like.  
 
 ## Usage  
 Before what-is can be used, one must create a .env file to the project root and add the following environmental variables there:  
