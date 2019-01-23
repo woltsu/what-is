@@ -1,6 +1,5 @@
 from dotenv import load_dotenv
 from imageHandler import downloader, analyzer
-import os
 
 if __name__ == '__main__':
   load_dotenv()
